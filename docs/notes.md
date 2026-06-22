@@ -28,3 +28,27 @@ I learned how Git tracks project history using commits and how GitHub provides a
 
 Using meaningful commit messages makes project history easier to understand and maintain.
 
+## VPS Deployment Experience
+
+
+
+The deployment process was successful using Render platform with Docker.
+
+
+
+\### Challenges:
+
+\- Initial issue with port binding (PORT 3000)
+
+\- Understanding how cloud deployment differs from local Docker
+
+
+
+\### Solution:
+
+\- Ensured the application listens on process.env.PORT or 3000
+
+\- Used Render automatic Docker build system
+
+\- Verified logs until service became live
+
