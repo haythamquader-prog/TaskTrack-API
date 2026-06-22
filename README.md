@@ -43,3 +43,7 @@ http://localhost:3000
 Expected response:
 
 TaskTrack API is running
+
+## Author
+
+Haytham Quader
